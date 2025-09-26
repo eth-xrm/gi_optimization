@@ -1,0 +1,35 @@
+# Copyright (c) 2025, ETH Zurich
+
+name: gi_opt
+channels:
+  - conda-forge
+  - astra-toolbox
+  - astra-toolbox/label/dev
+dependencies:
+  - jupyter-packaging
+  - jupyterlab
+  - nodejs
+  - pytest
+  - pytest-check-links
+  - python
+  - yarn
+  - ipykernel
+  - numpy
+  - scipy
+  - cudatoolkit==11.3.1
+  - astra-toolbox==2.1.3
+  - xarray
+  - astropy
+  - pandas
+  - h5py
+  - matplotlib
+  - scikit-image
+  - black
+  - papermill
+  - tabulate
+  - xraydb
+  - pip
+  - pip:
+    - matplotlib-scalebar
+    - spekpy
+prefix: "/opt/conda"
